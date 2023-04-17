@@ -32,6 +32,7 @@
 		BEDDBFD629ED95590026D8F1 /* LoginServiceMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFD529ED95590026D8F1 /* LoginServiceMessage.swift */; };
 		BEDDBFD829ED95620026D8F1 /* ServiceLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFD729ED95610026D8F1 /* ServiceLogin.swift */; };
 		BEDDBFDA29ED96460026D8F1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFD929ED96460026D8F1 /* LoginViewModel.swift */; };
+		BEDDBFDC29ED99FF0026D8F1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFDB29ED99FF0026D8F1 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		BEDDBFD529ED95590026D8F1 /* LoginServiceMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginServiceMessage.swift; sourceTree = "<group>"; };
 		BEDDBFD729ED95610026D8F1 /* ServiceLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLogin.swift; sourceTree = "<group>"; };
 		BEDDBFD929ED96460026D8F1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		BEDDBFDB29ED99FF0026D8F1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BEDDBFDD29ED9DAA0026D8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 		BEDDBF8629ED8F970026D8F1 /* loginExampleODS */ = {
 			isa = PBXGroup;
 			children = (
+				BEDDBFDD29ED9DAA0026D8F1 /* Info.plist */,
 				BEDDBF9B29ED90F10026D8F1 /* WebServices */,
 				BEDDBFA229ED918D0026D8F1 /* Scenes */,
 				BEDDBF8729ED8F970026D8F1 /* loginExampleODSApp.swift */,
@@ -201,6 +205,7 @@
 		BEDDBFA429ED91A50026D8F1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BEDDBFDB29ED99FF0026D8F1 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 				BEDDBFD629ED95590026D8F1 /* LoginServiceMessage.swift in Sources */,
 				BEDDBFD329ED95490026D8F1 /* SoapBodyResponseLogin.swift in Sources */,
 				BEDDBFD229ED95490026D8F1 /* LoginResponse.swift in Sources */,
+				BEDDBFDC29ED99FF0026D8F1 /* User.swift in Sources */,
 				BEDDBF8829ED8F970026D8F1 /* loginExampleODSApp.swift in Sources */,
 				BEDDBFC329ED95170026D8F1 /* SoapEnvelopeResponseSomee.swift in Sources */,
 				BEDDBFC429ED95170026D8F1 /* SoapEnvelopeResponse.swift in Sources */,
@@ -462,6 +468,7 @@
 				DEVELOPMENT_TEAM = 5G3R99Q5BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = loginExampleODS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +498,7 @@
 				DEVELOPMENT_TEAM = 5G3R99Q5BC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = loginExampleODS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

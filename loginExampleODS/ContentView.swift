@@ -13,10 +13,16 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+            AsyncImage(url: URL(string: vm.user.image)) { image in
+                image.resizable()
+                    .frame(width: 130, height: 150)
+            
+            } placeholder: {
+                ProgressView()
+            }
+
             Text("Hello, \(vm.userName)")
+            Text(vm.user.codigo)
         }
         .padding()
     }
