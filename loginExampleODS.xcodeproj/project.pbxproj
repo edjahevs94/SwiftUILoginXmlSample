@@ -11,6 +11,27 @@
 		BEDDBF8A29ED8F970026D8F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBF8929ED8F970026D8F1 /* ContentView.swift */; };
 		BEDDBF8C29ED8F9A0026D8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDDBF8B29ED8F9A0026D8F1 /* Assets.xcassets */; };
 		BEDDBF8F29ED8F9A0026D8F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDDBF8E29ED8F9A0026D8F1 /* Preview Assets.xcassets */; };
+		BEDDBF9729ED90300026D8F1 /* XMLMapper in Frameworks */ = {isa = PBXBuildFile; productRef = BEDDBF9629ED90300026D8F1 /* XMLMapper */; };
+		BEDDBF9A29ED907E0026D8F1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BEDDBF9929ED907E0026D8F1 /* Alamofire */; };
+		BEDDBFBB29ED95030026D8F1 /* SoapInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFB529ED95030026D8F1 /* SoapInformation.swift */; };
+		BEDDBFBC29ED95030026D8F1 /* SoapMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFB629ED95030026D8F1 /* SoapMessage.swift */; };
+		BEDDBFBD29ED95030026D8F1 /* SoapEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFB729ED95030026D8F1 /* SoapEnvelope.swift */; };
+		BEDDBFBE29ED95030026D8F1 /* SoapBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFB829ED95030026D8F1 /* SoapBody.swift */; };
+		BEDDBFBF29ED95030026D8F1 /* SoapHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFB929ED95030026D8F1 /* SoapHeader.swift */; };
+		BEDDBFC029ED95030026D8F1 /* SoapEnvelopeRequestSomee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFBA29ED95030026D8F1 /* SoapEnvelopeRequestSomee.swift */; };
+		BEDDBFC329ED95170026D8F1 /* SoapEnvelopeResponseSomee.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFC129ED95170026D8F1 /* SoapEnvelopeResponseSomee.swift */; };
+		BEDDBFC429ED95170026D8F1 /* SoapEnvelopeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFC229ED95170026D8F1 /* SoapEnvelopeResponse.swift */; };
+		BEDDBFCA29ED952C0026D8F1 /* XMLMappableResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFC529ED952B0026D8F1 /* XMLMappableResponseSerializer.swift */; };
+		BEDDBFCB29ED952C0026D8F1 /* DataRequest+XMLMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFC629ED952B0026D8F1 /* DataRequest+XMLMapper.swift */; };
+		BEDDBFCC29ED952C0026D8F1 /* XMLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFC729ED952B0026D8F1 /* XMLEncoding.swift */; };
+		BEDDBFCD29ED952C0026D8F1 /* SOAPVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFC829ED952C0026D8F1 /* SOAPVersion.swift */; };
+		BEDDBFCE29ED952C0026D8F1 /* XMLMappableArrayResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFC929ED952C0026D8F1 /* XMLMappableArrayResponseSerializer.swift */; };
+		BEDDBFD229ED95490026D8F1 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFCF29ED95480026D8F1 /* LoginResponse.swift */; };
+		BEDDBFD329ED95490026D8F1 /* SoapBodyResponseLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFD029ED95480026D8F1 /* SoapBodyResponseLogin.swift */; };
+		BEDDBFD429ED95490026D8F1 /* SoapUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFD129ED95490026D8F1 /* SoapUsuario.swift */; };
+		BEDDBFD629ED95590026D8F1 /* LoginServiceMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFD529ED95590026D8F1 /* LoginServiceMessage.swift */; };
+		BEDDBFD829ED95620026D8F1 /* ServiceLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFD729ED95610026D8F1 /* ServiceLogin.swift */; };
+		BEDDBFDA29ED96460026D8F1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDBFD929ED96460026D8F1 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +40,25 @@
 		BEDDBF8929ED8F970026D8F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEDDBF8B29ED8F9A0026D8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEDDBF8E29ED8F9A0026D8F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEDDBFB529ED95030026D8F1 /* SoapInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoapInformation.swift; path = "../../../../../../ods/ods-pase-1.2-final/ods-ios/ODSApp/WebServices/SoapFormatters/RequestFormatters/SoapInformation.swift"; sourceTree = "<group>"; };
+		BEDDBFB629ED95030026D8F1 /* SoapMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoapMessage.swift; path = "../../../../../../ods/ods-pase-1.2-final/ods-ios/ODSApp/WebServices/SoapFormatters/RequestFormatters/SoapMessage.swift"; sourceTree = "<group>"; };
+		BEDDBFB729ED95030026D8F1 /* SoapEnvelope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoapEnvelope.swift; path = "../../../../../../ods/ods-pase-1.2-final/ods-ios/ODSApp/WebServices/SoapFormatters/RequestFormatters/SoapEnvelope.swift"; sourceTree = "<group>"; };
+		BEDDBFB829ED95030026D8F1 /* SoapBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoapBody.swift; path = "../../../../../../ods/ods-pase-1.2-final/ods-ios/ODSApp/WebServices/SoapFormatters/RequestFormatters/SoapBody.swift"; sourceTree = "<group>"; };
+		BEDDBFB929ED95030026D8F1 /* SoapHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoapHeader.swift; path = "../../../../../../ods/ods-pase-1.2-final/ods-ios/ODSApp/WebServices/SoapFormatters/RequestFormatters/SoapHeader.swift"; sourceTree = "<group>"; };
+		BEDDBFBA29ED95030026D8F1 /* SoapEnvelopeRequestSomee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoapEnvelopeRequestSomee.swift; path = "../../../../../../ods/ods-pase-1.2-final/ods-ios/ODSApp/WebServices/SoapFormatters/RequestFormatters/SoapEnvelopeRequestSomee.swift"; sourceTree = "<group>"; };
+		BEDDBFC129ED95170026D8F1 /* SoapEnvelopeResponseSomee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapEnvelopeResponseSomee.swift; sourceTree = "<group>"; };
+		BEDDBFC229ED95170026D8F1 /* SoapEnvelopeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapEnvelopeResponse.swift; sourceTree = "<group>"; };
+		BEDDBFC529ED952B0026D8F1 /* XMLMappableResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLMappableResponseSerializer.swift; sourceTree = "<group>"; };
+		BEDDBFC629ED952B0026D8F1 /* DataRequest+XMLMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataRequest+XMLMapper.swift"; sourceTree = "<group>"; };
+		BEDDBFC729ED952B0026D8F1 /* XMLEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLEncoding.swift; sourceTree = "<group>"; };
+		BEDDBFC829ED952C0026D8F1 /* SOAPVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOAPVersion.swift; sourceTree = "<group>"; };
+		BEDDBFC929ED952C0026D8F1 /* XMLMappableArrayResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLMappableArrayResponseSerializer.swift; sourceTree = "<group>"; };
+		BEDDBFCF29ED95480026D8F1 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		BEDDBFD029ED95480026D8F1 /* SoapBodyResponseLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapBodyResponseLogin.swift; sourceTree = "<group>"; };
+		BEDDBFD129ED95490026D8F1 /* SoapUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapUsuario.swift; sourceTree = "<group>"; };
+		BEDDBFD529ED95590026D8F1 /* LoginServiceMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginServiceMessage.swift; sourceTree = "<group>"; };
+		BEDDBFD729ED95610026D8F1 /* ServiceLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLogin.swift; sourceTree = "<group>"; };
+		BEDDBFD929ED96460026D8F1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDDBF9729ED90300026D8F1 /* XMLMapper in Frameworks */,
+				BEDDBF9A29ED907E0026D8F1 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +93,8 @@
 		BEDDBF8629ED8F970026D8F1 /* loginExampleODS */ = {
 			isa = PBXGroup;
 			children = (
+				BEDDBF9B29ED90F10026D8F1 /* WebServices */,
+				BEDDBFA229ED918D0026D8F1 /* Scenes */,
 				BEDDBF8729ED8F970026D8F1 /* loginExampleODSApp.swift */,
 				BEDDBF8929ED8F970026D8F1 /* ContentView.swift */,
 				BEDDBF8B29ED8F9A0026D8F1 /* Assets.xcassets */,
@@ -65,6 +109,127 @@
 				BEDDBF8E29ED8F9A0026D8F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEDDBF9B29ED90F10026D8F1 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFB429ED93A30026D8F1 /* SoapExtra */,
+				BEDDBF9F29ED91530026D8F1 /* SoapFormatters */,
+				BEDDBF9C29ED910A0026D8F1 /* LoginWebService */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		BEDDBF9C29ED910A0026D8F1 /* LoginWebService */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFD729ED95610026D8F1 /* ServiceLogin.swift */,
+				BEDDBF9E29ED91340026D8F1 /* Response */,
+				BEDDBF9D29ED91260026D8F1 /* Request */,
+			);
+			path = LoginWebService;
+			sourceTree = "<group>";
+		};
+		BEDDBF9D29ED91260026D8F1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFD529ED95590026D8F1 /* LoginServiceMessage.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BEDDBF9E29ED91340026D8F1 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFCF29ED95480026D8F1 /* LoginResponse.swift */,
+				BEDDBFD029ED95480026D8F1 /* SoapBodyResponseLogin.swift */,
+				BEDDBFD129ED95490026D8F1 /* SoapUsuario.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		BEDDBF9F29ED91530026D8F1 /* SoapFormatters */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFA129ED91760026D8F1 /* RequestFormatters */,
+				BEDDBFA029ED91680026D8F1 /* ResponseFormatters */,
+			);
+			path = SoapFormatters;
+			sourceTree = "<group>";
+		};
+		BEDDBFA029ED91680026D8F1 /* ResponseFormatters */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFC229ED95170026D8F1 /* SoapEnvelopeResponse.swift */,
+				BEDDBFC129ED95170026D8F1 /* SoapEnvelopeResponseSomee.swift */,
+			);
+			path = ResponseFormatters;
+			sourceTree = "<group>";
+		};
+		BEDDBFA129ED91760026D8F1 /* RequestFormatters */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFB829ED95030026D8F1 /* SoapBody.swift */,
+				BEDDBFB729ED95030026D8F1 /* SoapEnvelope.swift */,
+				BEDDBFBA29ED95030026D8F1 /* SoapEnvelopeRequestSomee.swift */,
+				BEDDBFB929ED95030026D8F1 /* SoapHeader.swift */,
+				BEDDBFB529ED95030026D8F1 /* SoapInformation.swift */,
+				BEDDBFB629ED95030026D8F1 /* SoapMessage.swift */,
+			);
+			path = RequestFormatters;
+			sourceTree = "<group>";
+		};
+		BEDDBFA229ED918D0026D8F1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFA329ED91970026D8F1 /* LoginScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BEDDBFA329ED91970026D8F1 /* LoginScene */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFA629ED91B90026D8F1 /* Views */,
+				BEDDBFA529ED91AC0026D8F1 /* ViewModels */,
+				BEDDBFA429ED91A50026D8F1 /* Models */,
+			);
+			path = LoginScene;
+			sourceTree = "<group>";
+		};
+		BEDDBFA429ED91A50026D8F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEDDBFA529ED91AC0026D8F1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFD929ED96460026D8F1 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BEDDBFA629ED91B90026D8F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BEDDBFB429ED93A30026D8F1 /* SoapExtra */ = {
+			isa = PBXGroup;
+			children = (
+				BEDDBFC629ED952B0026D8F1 /* DataRequest+XMLMapper.swift */,
+				BEDDBFC829ED952C0026D8F1 /* SOAPVersion.swift */,
+				BEDDBFC729ED952B0026D8F1 /* XMLEncoding.swift */,
+				BEDDBFC929ED952C0026D8F1 /* XMLMappableArrayResponseSerializer.swift */,
+				BEDDBFC529ED952B0026D8F1 /* XMLMappableResponseSerializer.swift */,
+			);
+			path = SoapExtra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +248,10 @@
 			dependencies = (
 			);
 			name = loginExampleODS;
+			packageProductDependencies = (
+				BEDDBF9629ED90300026D8F1 /* XMLMapper */,
+				BEDDBF9929ED907E0026D8F1 /* Alamofire */,
+			);
 			productName = loginExampleODS;
 			productReference = BEDDBF8429ED8F970026D8F1 /* loginExampleODS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +280,10 @@
 				Base,
 			);
 			mainGroup = BEDDBF7B29ED8F970026D8F1;
+			packageReferences = (
+				BEDDBF9529ED90300026D8F1 /* XCRemoteSwiftPackageReference "XMLMapper" */,
+				BEDDBF9829ED907E0026D8F1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = BEDDBF8529ED8F970026D8F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +310,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDDBFBC29ED95030026D8F1 /* SoapMessage.swift in Sources */,
+				BEDDBFCA29ED952C0026D8F1 /* XMLMappableResponseSerializer.swift in Sources */,
+				BEDDBFCB29ED952C0026D8F1 /* DataRequest+XMLMapper.swift in Sources */,
+				BEDDBFD429ED95490026D8F1 /* SoapUsuario.swift in Sources */,
+				BEDDBFCD29ED952C0026D8F1 /* SOAPVersion.swift in Sources */,
 				BEDDBF8A29ED8F970026D8F1 /* ContentView.swift in Sources */,
+				BEDDBFBE29ED95030026D8F1 /* SoapBody.swift in Sources */,
+				BEDDBFD629ED95590026D8F1 /* LoginServiceMessage.swift in Sources */,
+				BEDDBFD329ED95490026D8F1 /* SoapBodyResponseLogin.swift in Sources */,
+				BEDDBFD229ED95490026D8F1 /* LoginResponse.swift in Sources */,
 				BEDDBF8829ED8F970026D8F1 /* loginExampleODSApp.swift in Sources */,
+				BEDDBFC329ED95170026D8F1 /* SoapEnvelopeResponseSomee.swift in Sources */,
+				BEDDBFC429ED95170026D8F1 /* SoapEnvelopeResponse.swift in Sources */,
+				BEDDBFCC29ED952C0026D8F1 /* XMLEncoding.swift in Sources */,
+				BEDDBFC029ED95030026D8F1 /* SoapEnvelopeRequestSomee.swift in Sources */,
+				BEDDBFBF29ED95030026D8F1 /* SoapHeader.swift in Sources */,
+				BEDDBFCE29ED952C0026D8F1 /* XMLMappableArrayResponseSerializer.swift in Sources */,
+				BEDDBFBB29ED95030026D8F1 /* SoapInformation.swift in Sources */,
+				BEDDBFBD29ED95030026D8F1 /* SoapEnvelope.swift in Sources */,
+				BEDDBFD829ED95620026D8F1 /* ServiceLogin.swift in Sources */,
+				BEDDBFDA29ED96460026D8F1 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +531,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEDDBF9529ED90300026D8F1 /* XCRemoteSwiftPackageReference "XMLMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gcharita/XMLMapper.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		BEDDBF9829ED907E0026D8F1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEDDBF9629ED90300026D8F1 /* XMLMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEDDBF9529ED90300026D8F1 /* XCRemoteSwiftPackageReference "XMLMapper" */;
+			productName = XMLMapper;
+		};
+		BEDDBF9929ED907E0026D8F1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEDDBF9829ED907E0026D8F1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BEDDBF7C29ED8F970026D8F1 /* Project object */;
 }
